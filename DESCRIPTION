@@ -1,0 +1,14 @@
+Package: ggsuperviolin
+Type: Package
+Title: Super violin plots for ggplot2
+Version: 0.1.0
+Author: Andrew Lynch
+Maintainer: Andrew Lynch <hey@andrewlynch.io>
+Description: ggsuperviolin produces 'super violin' plots in ggplot2. Super violin plots are nested violin plots intended to emphasize distributions of points within individual replicates.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0),
+    ggplot2 (>= 3.3.0)
+RoxygenNote: 7.3.2
