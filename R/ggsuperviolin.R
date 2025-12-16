@@ -1,3 +1,4 @@
+# Superviolin ------------------------------------------------------------
 
 StatSuperviolin <- ggproto(
   "StatSuperviolin", Stat,
@@ -262,6 +263,11 @@ geom_superviolin <- function(mapping = NULL, data = NULL,
   )
 }
 
+
+
+
+# Supercentral ------------------------------------------------------------
+
 StatSupercentral <- ggproto(
   "StatSupercentral", Stat,
   required_aes = c("x", "y", "rep"),
@@ -474,6 +480,8 @@ stat_supercentral <- function(mapping = NULL, data = NULL,
     )
   )
 }
+
+# Superpoint ------------------------------------------------------------
 
 StatSuperpoint <- ggproto(
   "StatSuperpoint", Stat,
