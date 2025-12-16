@@ -3,3 +3,7 @@
 .RData
 .Ruserdata
 localtest.R
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
